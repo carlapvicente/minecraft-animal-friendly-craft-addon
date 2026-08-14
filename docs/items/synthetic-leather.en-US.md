@@ -146,6 +146,14 @@ This conversion allows the resulting leather to be used normally in vanilla Mine
 
 ---
 
+### Asset Credits
+
+The vanilla item icons used in this documentation were obtained from [MC Icons](https://mc-icons.com/).
+
+Minecraft and its assets are property of Mojang Studios/Microsoft.
+
+---
+
 <div align="center">
 
 [⬅️ Back to project documentation](../README.en-US.md)

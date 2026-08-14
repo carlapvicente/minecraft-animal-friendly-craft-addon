@@ -156,6 +156,14 @@ Minecraft é uma marca registrada da Microsoft.
 
 ---
 
+## 📚 Referências
+
+- [Minecraft: Bedrock Edition Creator Documentation](https://learn.microsoft.com/en-us/minecraft/creator/)
+- [Getting Started with Add-On Development](https://learn.microsoft.com/en-us/minecraft/creator/documents/gettingstarted)
+- [MC Icons](https://mc-icons.com/) — fonte dos ícones vanilla utilizados na documentação.
+
+---
+
 <div align="center">
 
 Feito com 🩷 para quem prefere construir, explorar e criar sem precisar machucar os bichinhos. 🐾

@@ -156,6 +156,14 @@ Minecraft is a trademark of Microsoft.
 
 ---
 
+## 📚 References
+
+* [Minecraft: Bedrock Edition Creator Documentation](https://learn.microsoft.com/en-us/minecraft/creator/)
+* [Getting Started with Add-On Development](https://learn.microsoft.com/en-us/minecraft/creator/documents/gettingstarted)
+* [MC Icons](https://mc-icons.com/) — source for the vanilla item icons used throughout the documentation.
+
+---
+
 <div align="center">
 
 Made with 🩷 for those who prefer to build, explore, and create without having to harm the animals. 🐾

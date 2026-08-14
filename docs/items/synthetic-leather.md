@@ -146,6 +146,14 @@ Essa conversão permite utilizar o couro resultante normalmente nas receitas van
 
 ---
 
+### Créditos dos assets
+
+Os ícones de itens vanilla utilizados nesta documentação foram obtidos através do [MC Icons](https://mc-icons.com/).
+
+Minecraft e seus assets são propriedade da Mojang Studios/Microsoft.
+
+---
+
 <div align="center">
 
 [⬅️ Voltar para a documentação do projeto](../../README.md)
