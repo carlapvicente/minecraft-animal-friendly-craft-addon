@@ -21,10 +21,10 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
           node-version: 22
           cache: npm
@@ -40,7 +40,7 @@ jobs:
         run: npm run mcaddon
 
       - name: Upload .mcaddon
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: animal-friendly-craft-addon
           path: addon/dist/packages/cpv_animal_friendly.mcaddon
