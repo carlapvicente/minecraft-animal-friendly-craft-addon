@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - commit-inicial
+      - main
     tags:
       - 'v*.*.*'
 
@@ -41,7 +41,7 @@ jobs:
 
       - name: Auditar dependências de produção
         run: npm audit --omit=dev
-        
+
       - name: Validar estrutura e conteúdo do add-on
         run: npx mct validate
 
