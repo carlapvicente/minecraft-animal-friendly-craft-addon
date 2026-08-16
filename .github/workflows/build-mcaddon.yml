@@ -6,6 +6,10 @@ on:
     branches:
       - commit-inicial
 
+env:
+  PROJECT_NAME: ${{ vars.PROJECT_NAME }}
+  MINECRAFT_PRODUCT: ${{ vars.MINECRAFT_PRODUCT }}
+  CUSTOM_DEPLOYMENT_PATH: ""
 jobs:
   build:
     name: Build .mcaddon
