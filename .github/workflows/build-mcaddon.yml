@@ -2,6 +2,9 @@ name: Build Minecraft Add-on
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - commit-inicial
 
 jobs:
   build:
