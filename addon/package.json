@@ -5,6 +5,7 @@
   "description": "Adds animal-friendly alternatives for obtaining materials and crafting items while preserving vanilla Minecraft gameplay.",
   "private": true,
   "devDependencies": {
+    "@minecraft/creator-tools": "0.17.7",
     "@minecraft/core-build-tasks": "5.5.0",
     "eslint-plugin-minecraft-linting": "2.0.2",
     "source-map": "0.7.4",
