@@ -1,0 +1,25 @@
+{
+    "format_version": "1.26.40",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "cpv:synthetic_leather_to_leather"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "cpv:synthetic_leather"
+            }
+        ],
+        "result": {
+            "item": "minecraft:leather",
+            "count": 1
+        },
+        "unlock": [
+            {
+                "item": "cpv:synthetic_leather"
+            }
+        ]
+    }
+}
