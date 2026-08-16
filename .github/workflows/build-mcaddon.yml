@@ -1,0 +1,40 @@
+name: Build Minecraft Add-on
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Build .mcaddon
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: addon
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: addon/package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build add-on
+        run: npm run build
+
+      - name: Generate .mcaddon
+        run: npm run mcaddon
+
+      - name: Upload .mcaddon
+        uses: actions/upload-artifact@v4
+        with:
+          name: animal-friendly-craft-addon
+          path: addon/dist/packages/cpv_animal_friendly.mcaddon
+          if-no-files-found: error
