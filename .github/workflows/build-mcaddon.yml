@@ -39,6 +39,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Validar estrutura e conteúdo do add-on
+        run: npx mct validate
+
       - name: Build add-on
         run: npm run build
 
