@@ -142,9 +142,11 @@ minecraft-animal-friendly-craft-addon/
 
 ## 📜 License
 
-<!-- Define the project license before publishing. -->
+This project is distributed under the [MIT License](../LICENSE).
 
-License to be defined.
+For Portuguese-speaking readers, an [unofficial Brazilian Portuguese translation of the MIT License](../LICENSE.pt-BR.md) is also available.
+
+In case of any interpretation differences, the original English text in the `LICENSE` file prevails.
 
 ---
 
