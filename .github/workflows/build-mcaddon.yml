@@ -3,6 +3,8 @@ name: Build and Release Minecraft Add-on
 on:
   workflow_dispatch:
   push:
+    branches:
+      - '**'
     tags:
       - 'v*.*.*'
 
