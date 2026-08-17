@@ -17,7 +17,11 @@ import {
 } from "@minecraft/core-build-tasks";
 import path from "path";
 setupEnvironment(path.resolve(__dirname, ".env"));
+import packageJson from "./package.json";
+
 const projectName = getOrThrowFromProcess("PROJECT_NAME");
+const packageName = getOrThrowFromProcess("PACKAGE_NAME");
+const projectVersion = packageJson.version;
 const bundleTaskOptions: BundleTaskParameters = {
   entryPoint: path.join(__dirname, "./scripts/main.ts"),
   external: ["@minecraft/server", "@minecraft/server-ui"],
@@ -33,7 +37,7 @@ const copyTaskOptions: CopyTaskParameters = {
 };
 const mcaddonTaskOptions: ZipTaskParameters = {
   ...copyTaskOptions,
-  outputFile: `./dist/packages/${projectName}.mcaddon`,
+  outputFile: `./dist/packages/${packageName}-v${projectVersion}.mcaddon`,
 };
 task("lint", coreLint(["scripts/**/*.ts"], argv().fix));
 task("typescript", tscTask());
