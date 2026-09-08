@@ -1,6 +1,6 @@
 {
   "name": "out",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "productName": "Animal Friendly Craft Add-on",
   "description": "Adds animal-friendly alternatives for obtaining materials and crafting items while preserving vanilla Minecraft gameplay.",
   "private": true,
